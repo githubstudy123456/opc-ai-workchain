@@ -1,0 +1,77 @@
+{
+  "schema_version": "2026-06-17",
+  "lead_id": "LEAD-YYYYMMDD-001",
+  "source": {
+    "channel": "website_form | wechat | linkedin | referral | cold_email | offline_event | other",
+    "campaign": "",
+    "captured_at": "2026-06-17T09:00:00+08:00",
+    "source_url": "",
+    "consent_evidence": "form_checkbox | email_reply | contract | verbal_to_be_confirmed"
+  },
+  "contact": {
+    "name": "",
+    "company": "",
+    "role": "",
+    "phone": "",
+    "email": "",
+    "wechat": "",
+    "region": "",
+    "preferred_contact_method": "email | wechat | phone"
+  },
+  "company_profile": {
+    "industry": "",
+    "team_size": "",
+    "business_model": "",
+    "current_tools": [],
+    "existing_data_sources": [],
+    "sensitive_data_types": []
+  },
+  "problem_statement": {
+    "workflow_to_improve": "",
+    "trigger": "",
+    "current_steps": [],
+    "weekly_volume": "",
+    "weekly_hours_spent": 0,
+    "error_or_delay_examples": [],
+    "desired_outcome": "",
+    "success_metric": ""
+  },
+  "qualification": {
+    "budget_range_cny": "",
+    "target_launch_date": "",
+    "decision_maker_confirmed": false,
+    "has_internal_owner": false,
+    "urgency": "low | medium | high",
+    "fit_score_0_100": 0,
+    "disqualification_reason": ""
+  },
+  "ai_automation_opportunity": {
+    "candidate_workflows": [],
+    "recommended_first_workflow": "",
+    "automation_type": "deterministic | ai_assisted | agentic | hybrid",
+    "human_approval_points": [],
+    "systems_to_connect": [],
+    "expected_outputs": []
+  },
+  "risk_review": {
+    "legal_or_tax_sensitive": false,
+    "personal_information_involved": false,
+    "financial_decision_involved": false,
+    "external_message_sending": false,
+    "live_system_write_access": false,
+    "required_controls": [
+      "data_minimization",
+      "human_approval_before_external_send",
+      "access_log",
+      "rollback_plan"
+    ]
+  },
+  "next_action": {
+    "status": "new | needs_discovery | proposal_sent | won | lost | nurture",
+    "owner": "",
+    "due_at": "",
+    "message_draft": "",
+    "meeting_notes_url": "",
+    "proposal_url": ""
+  }
+}
